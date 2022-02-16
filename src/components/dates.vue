@@ -16,11 +16,10 @@
                         <h2>Die Göttin wird modern</h2>
                         <p class="description">Von Burkhard Lutz & Bernhard Werthmann</p>
                     </div>
-                    <a class="tickets btn">
-                        <span><i class="fa-solid fa-ticket"></i> Karten kaufen</span>
-                    </a>
-                </div>
-                
+                    <button class="tickets btn enter-button-outline" type="button" id="newsletter-enter" v-on:click="subscribe">
+                        <span class="btn-text"><i class="fa-solid fa-ticket"></i> Karten kaufen</span>
+                    </button>
+                </div>       
             </div>
         </div>
     </div>
@@ -134,6 +133,31 @@
     font-weight: 700;
 
     margin-top: 15px;
+}
+
+.btn-text {
+  z-index: 1;
+}
+
+.btn:hover {
+  color: #fff !important;
+  background-color: transparent !important;
+  text-decoration: none;
+}
+
+.btn:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #5482B6;
+  transition: all 0.40s;
+}
+
+.btn:hover:after {
+  width: 100%;
 }
 
 @media only screen and (max-width: 767px) {
