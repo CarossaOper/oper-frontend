@@ -9,9 +9,9 @@
             <a class="col-1 center social-icon" href="#"><i class="fa-brands fa-instagram"></i></a> 
             <a class="col-5 center" href="#">Impressum</a>        
         </div>
-            <div class="center">
-        <span class="copyright-text pt-5 pb-3" id="Copyright">Copyright &copy; 2021 P-Seminar Oper Hans-Carossa-Gymnasium</span>
-      </div>   
+        <div class="center">
+            <span class="copyright-text pt-5 pb-3" id="Copyright">Copyright &copy; 2021 P-Seminar Oper Hans-Carossa-Gymnasium</span>
+        </div>   
     </div>
 </footer>
 
